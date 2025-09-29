@@ -132,7 +132,7 @@ struct ContentView: View {
             .padding(.horizontal, 40)
             .padding(.bottom, 60)
 
-            
+            Text("test")
             
             
             

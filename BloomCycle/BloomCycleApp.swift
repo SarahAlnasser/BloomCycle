@@ -12,6 +12,7 @@ struct BloomCycleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .ignoresSafeArea(.keyboard, edges: .all)
         }
     }
 }
